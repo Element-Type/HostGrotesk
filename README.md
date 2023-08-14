@@ -22,11 +22,11 @@ Image designed by [Güzin Türkeri](https://www.behance.net/guzinturkeri)
 
 ## About
 
-Host Grotesk, designed by [Doğukan Karapınar](http://doughkan.com), a co-founder of Element Type. 
+Host Grotesk, designed by [Doğukan Karapınar](https://doughkan.com), a co-founder of Element Type. 
 
-[Element Type](http://elementtype.co), based across İstanbul, Amiens, and Toronto, is a hub for innovative typeface design, font creation, and custom lettering. 
+[Element Type](https://elementtype.co), based across İstanbul, Amiens, and Toronto, is a hub for innovative typeface design, font creation, and custom lettering. 
 
-
+Mastering: [ibrahim kaçtıoğlu](http://ibrahimkactioglu.com).
 
 
 ## Building
