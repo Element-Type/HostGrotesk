@@ -5,3 +5,7 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
+Doğukan Karapınar <hi@doughkan.com>
+Element Type <hello@elementtype.co>
+
+

@@ -1,7 +1,11 @@
+buildStatic: true
+buildVariable: true
+buildTTF: true
+buildOTF: false
+buildWebfont: true
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - HostGrotesk.glyphs
+  - HostGrotesk-Italic.glyphs
 axisOrder:
   - wght
-  - ital
-familyName: Rubik
+familyName: Host Grotesk

@@ -8,3 +8,6 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+ibrahim kaçtıoğlu <hi@ibrahimkactioglu.com
+Güzin Türkeri <guzinturkeri@gmail.com>
