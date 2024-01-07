@@ -113,7 +113,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -431,7 +431,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -738,13 +738,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -757,12 +751,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni2113	Contours detected: 1	Expected: 2
 
@@ -782,21 +770,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni2113	Contours detected: 1	Expected: 2
+	- Glyph name: uni2113	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3 
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -816,7 +792,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -1168,13 +1144,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1187,12 +1157,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni2113	Contours detected: 1	Expected: 2
 
@@ -1212,21 +1176,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni2113	Contours detected: 1	Expected: 2
+	- Glyph name: uni2113	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3 
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -1246,7 +1198,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -1506,7 +1458,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -1712,13 +1664,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1731,12 +1677,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni2113	Contours detected: 1	Expected: 2
 
@@ -1756,21 +1696,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni2113	Contours detected: 1	Expected: 2
+	- Glyph name: uni2113	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3 
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -1790,7 +1718,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -2063,7 +1991,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -2473,7 +2401,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -2817,7 +2745,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
@@ -3069,13 +2997,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -3088,12 +3010,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni2113	Contours detected: 1	Expected: 2
 
@@ -3113,21 +3029,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni2113	Contours detected: 1	Expected: 2
+	- Glyph name: uni2113	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: y	Contours detected: 2	Expected: 1
-
-	- Glyph name: yacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-
-	- Glyph name: ydieresis	Contours detected: 4	Expected: 3 
-
-	- Glyph name: ygrave	Contours detected: 3	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -3147,7 +3051,7 @@ Width = 579:
 plus
 
 Width = 520:
-equal, notequal
+notequal, equal
 
 Width = 701:
 logicalnot
