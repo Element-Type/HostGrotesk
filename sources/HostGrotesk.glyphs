@@ -1,5 +1,5 @@
 {
-.appVersion = "3208";
+.appVersion = "3234";
 .formatVersion = 3;
 DisplayStrings = (
 "Tabular Numbers 
@@ -66,37 +66,7 @@ DisplayStrings = (
          
          
 ",
-"488)6789
-00000 11011 22022 33033 44044 55055 66066 77077 88088 99099
-00100 11111 22122 33133 44144 55155 66166 77177 88188 99199
-00200 11211 22222 33233 44244 55255 66266 77277 88288 99299
-00300 11311 22322 33333 44344 55355 66366 77377 88388 99399
-00400 11411 22422 33433 44444 55455 66466 77477 88488 99499
-00500 11511 22522 33533 44544 55555 66566 77577 88588 99599
-00600 11611 22622 33633 44644 55655 66666 77677 88688 99699
-00700 11711 22722 33733 44744 55755 66766 77777 88788 99799
-0000 1111 22822 33833 44844 55855 66866 77877 88888 99899
-00900 11911 22922 33933 44944 55955 66966 77977 88988 99999
-         
-         
-         
-",
-"488)6789
-00000 11011 22022 33033 44044 55055 66066 77077 88088 99099
-00100 11111 22122 33133 44144 55155 66166 77177 88188 99199
-00200 11211 22222 33233 44244 55255 66266 77277 88288 99299
-00300 11311 22322 33333 44344 55355 66366 77377 88388 99399
-00400 11411 22422 33433 44444 55455 66466 77477 88488 99499
-00500 11511 22522 33533 44544 55555 66566 77577 88588 99599
-00600 11611 22622 33633 44644 55655 66666 77677 88688 99699
-00700 11711 22722 33733 44744 55755 66766 77777 88788 99799
-0000 1111 22822 33833 44844 55855 66866 77877 88888 99899
-00900 11911 22922 33933 44944 55955 66966 77977 88988 99999
-         
-         
-         
-",
-"··Ŀŀ/periodcentered.loclCAT/periodcentered.loclCAT.case ď/caroncomb.alt"
+"··Ŀŀ/periodcentered.loclCAT/periodcentered.loclCAT.case ď/caroncomb.alt y"
 );
 axes = (
 {
@@ -7687,7 +7657,7 @@ unicode = 120;
 glyphname = y;
 kernLeft = y;
 kernRight = y;
-lastChange = "2023-04-05 18:40:08 +0000";
+lastChange = "2024-01-07 17:19:16 +0000";
 layers = (
 {
 associatedMasterId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
@@ -7722,6 +7692,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(178,-105,o),
+(166,-110,o),
+(136,-110,cs),
+(28,-110,l),
+(28,-220,l),
+(199,-220,ls),
+(268,-220,o),
+(282,-203,o),
+(324,-107,cs),
 (587,496,l),
 (437,496,l),
 (300,158,l),
@@ -7729,23 +7708,7 @@ nodes = (
 (16,496,l),
 (232,-31,l),
 (238,29,l),
-(199,-57,l),
-(324,-107,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(199,-220,ls),
-(268,-220,o),
-(282,-203,o),
-(324,-107,c),
-(199,-57,l),
-(178,-105,o),
-(166,-110,o),
-(136,-110,cs),
-(28,-110,l),
-(28,-220,l)
+(199,-57,ls)
 );
 }
 );
@@ -7763,6 +7726,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(187,-151,o),
+(179,-160,o),
+(151,-160,cs),
+(53,-160,l),
+(53,-220,l),
+(167,-220,ls),
+(224,-220,o),
+(232,-209,o),
+(283,-98,cs),
 (555,496,l),
 (483,496,l),
 (300,98,l),
@@ -7770,23 +7742,7 @@ nodes = (
 (52,496,l),
 (270,11,l),
 (279,53,l),
-(216,-85,l),
-(283,-98,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(165,-220,ls),
-(222,-220,o),
-(230,-209,o),
-(281,-98,c),
-(214,-85,l),
-(185,-151,o),
-(177,-160,o),
-(149,-160,cs),
-(51,-160,l),
-(51,-220,l)
+(216,-85,ls)
 );
 }
 );
@@ -42835,41 +42791,11 @@ type = "italic angle";
 );
 properties = (
 {
-key = designerURL;
-value = "https://doughkan.com";
-},
-{
-key = manufacturerURL;
-value = "https://elementtype.co";
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-}
-);
-},
-{
 key = copyrights;
 values = (
 {
 language = dflt;
 value = "Copyright 2023 The Host Grotesk Project Authors (https://github.com/googlefonts/googlefonts-project-template)";
-}
-);
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Element Type";
 }
 );
 },
@@ -42881,6 +42807,36 @@ language = dflt;
 value = "Doğukan Karapınar based on Poppins by Indian Type Foundry, Jonny Pinhorn";
 }
 );
+},
+{
+key = designerURL;
+value = "https://doughkan.com";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Element Type";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://elementtype.co";
 },
 {
 key = vendorID;
