@@ -1,7 +1,7 @@
 buildStatic: true
 buildVariable: true
 buildTTF: true
-buildOTF: false
+buildOTF: true
 buildWebfont: true
 sources:
   - HostGrotesk.glyphs
