@@ -600,7 +600,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* partialdiff (U+2202): B<<442.0,530.0>-<478.0,504.0>-<482.0,432.0>>/B<<482.0,432.0>-<492.0,507.0>-<485.0,567.0>> = 10.774473488455637 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[16] HostGrotesk-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] HostGrotesk-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 277 instead. [code: descent]
@@ -658,6 +658,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
+
+	- Glyph name: numbersign	Contours detected: 1	Expected: 2
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
@@ -676,7 +680,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3 
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: numbersign	Contours detected: 1	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -716,6 +724,8 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* numbersign (U+0023) contains a short segment L<<95.0,87.0>--<97.0,97.0>>
 
 	* at (U+0040) contains a short segment B<<660.5,104.0>-<671.0,88.0>-<690.0,88.0>>
 
@@ -774,14 +784,6 @@ The following glyphs do not have the recommended number of contours:
 	* Rcaron (U+0158): L<<343.0,277.0>--<343.0,277.0>> -> L<<343.0,277.0>--<343.0,277.0>> 
 
 	* uni0156 (U+0156): L<<343.0,277.0>--<343.0,277.0>> -> L<<343.0,277.0>--<343.0,277.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* greaterequal (U+2265): L<<122.0,428.0>--<77.0,437.0>>/L<<77.0,437.0>--<147.0,438.0>> = 12.128387935708812 
-
-	* lessequal (U+2264): L<<443.0,438.0>--<513.0,437.0>>/L<<513.0,437.0>--<468.0,428.0>> = 12.128387935708812 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -790,10 +792,6 @@ The following glyphs do not have the recommended number of contours:
 	* asterisk (U+002A): L<<160.0,510.0>--<45.0,509.0>>
 
 	* asterisk (U+002A): L<<417.0,509.0>--<302.0,510.0>>
-
-	* greaterequal (U+2265): L<<266.0,439.0>--<147.0,438.0>>
-
-	* lessequal (U+2264): L<<443.0,438.0>--<324.0,439.0>>
 
 	* summation (U+2211): L<<37.0,573.0>--<38.0,700.0>>
 
@@ -1148,7 +1146,35 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
+
+	- Glyph name: equal	Contours detected: 1	Expected: 2
+
+	- Glyph name: dieresis	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: Adieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: Edieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Idieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: Udieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: adieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: edieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: idieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: odieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: udieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: ydieresis	Contours detected: 2	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1160,27 +1186,63 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: lessequal	Contours detected: 3	Expected: 2
+	- Glyph name: Ydieresis	Contours detected: 2	Expected: 3
 
-	- Glyph name: greaterequal	Contours detected: 3	Expected: 2
+	- Glyph name: uni0308	Contours detected: 1	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Adieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: Edieresis	Contours detected: 2	Expected: 3
 
 	- Glyph name: Eng	Contours detected: 2	Expected: 1
 
+	- Glyph name: Idieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: Udieresis	Contours detected: 2	Expected: 3
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Wdieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Ydieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: adieresis	Contours detected: 3	Expected: 4
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: dieresis	Contours detected: 1	Expected: 2
+
+	- Glyph name: edieresis	Contours detected: 3	Expected: 4
+
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: equal	Contours detected: 1	Expected: 2
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: greaterequal	Contours detected: 3	Expected: 2
+	- Glyph name: idieresis	Contours detected: 2	Expected: 3
 
-	- Glyph name: lessequal	Contours detected: 3	Expected: 2
+	- Glyph name: odieresis	Contours detected: 3	Expected: 4
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
+
+	- Glyph name: udieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni0308	Contours detected: 1	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: wdieresis	Contours detected: 2	Expected: 3 
+
+	- Glyph name: ydieresis	Contours detected: 2	Expected: 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -1195,65 +1257,37 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* dieresis (U+00A8): X=291.0,Y=701.0 (should be at cap-height 700?)
+	* dieresis (U+00A8): X=185.0,Y=701.0 (should be at cap-height 700?)
 
-	* dieresis (U+00A8): X=395.0,Y=701.0 (should be at cap-height 700?)
+	* dieresis (U+00A8): X=343.0,Y=701.0 (should be at cap-height 700?)
 
-	* dieresis (U+00A8): X=132.0,Y=701.0 (should be at cap-height 700?)
+	* adieresis (U+00E4): X=243.0,Y=701.0 (should be at cap-height 700?)
 
-	* dieresis (U+00A8): X=236.0,Y=701.0 (should be at cap-height 700?)
+	* adieresis (U+00E4): X=401.0,Y=701.0 (should be at cap-height 700?)
 
-	* adieresis (U+00E4): X=349.0,Y=701.0 (should be at cap-height 700?)
+	* edieresis (U+00EB): X=261.0,Y=701.0 (should be at cap-height 700?)
 
-	* adieresis (U+00E4): X=453.0,Y=701.0 (should be at cap-height 700?)
+	* edieresis (U+00EB): X=419.0,Y=701.0 (should be at cap-height 700?)
 
-	* adieresis (U+00E4): X=190.0,Y=701.0 (should be at cap-height 700?)
+	* idieresis (U+00EF): X=90.0,Y=701.0 (should be at cap-height 700?)
 
-	* adieresis (U+00E4): X=294.0,Y=701.0 (should be at cap-height 700?)
-
-	* edieresis (U+00EB): X=367.0,Y=701.0 (should be at cap-height 700?)
-
-	* edieresis (U+00EB): X=471.0,Y=701.0 (should be at cap-height 700?)
-
-	* edieresis (U+00EB): X=208.0,Y=701.0 (should be at cap-height 700?)
-
-	* edieresis (U+00EB): X=312.0,Y=701.0 (should be at cap-height 700?)
-
-	* idieresis (U+00EF): X=196.0,Y=701.0 (should be at cap-height 700?)
-
-	* idieresis (U+00EF): X=300.0,Y=701.0 (should be at cap-height 700?)
-
-	* idieresis (U+00EF): X=37.0,Y=701.0 (should be at cap-height 700?)
-
-	* idieresis (U+00EF): X=141.0,Y=701.0 (should be at cap-height 700?)
+	* idieresis (U+00EF): X=248.0,Y=701.0 (should be at cap-height 700?)
 
 	* eth (U+00F0): X=331.0,Y=701.0 (should be at cap-height 700?)
 
 	* eth (U+00F0): X=417.0,Y=699.0 (should be at cap-height 700?)
 
-	* odieresis (U+00F6): X=378.0,Y=701.0 (should be at cap-height 700?)
+	* odieresis (U+00F6): X=272.0,Y=701.0 (should be at cap-height 700?)
 
-	* odieresis (U+00F6): X=482.0,Y=701.0 (should be at cap-height 700?)
+	* odieresis (U+00F6): X=430.0,Y=701.0 (should be at cap-height 700?)
 
-	* odieresis (U+00F6): X=219.0,Y=701.0 (should be at cap-height 700?)
+	* udieresis (U+00FC): X=243.0,Y=701.0 (should be at cap-height 700?)
 
-	* odieresis (U+00F6): X=323.0,Y=701.0 (should be at cap-height 700?)
+	* udieresis (U+00FC): X=401.0,Y=701.0 (should be at cap-height 700?)
 
-	* udieresis (U+00FC): X=349.0,Y=701.0 (should be at cap-height 700?)
+	* ydieresis (U+00FF): X=273.0,Y=701.0 (should be at cap-height 700?)
 
-	* udieresis (U+00FC): X=453.0,Y=701.0 (should be at cap-height 700?)
-
-	* udieresis (U+00FC): X=190.0,Y=701.0 (should be at cap-height 700?)
-
-	* udieresis (U+00FC): X=294.0,Y=701.0 (should be at cap-height 700?)
-
-	* ydieresis (U+00FF): X=379.0,Y=701.0 (should be at cap-height 700?)
-
-	* ydieresis (U+00FF): X=483.0,Y=701.0 (should be at cap-height 700?)
-
-	* ydieresis (U+00FF): X=220.0,Y=701.0 (should be at cap-height 700?)
-
-	* ydieresis (U+00FF): X=324.0,Y=701.0 (should be at cap-height 700?)
+	* ydieresis (U+00FF): X=431.0,Y=701.0 (should be at cap-height 700?)
 
 	* cdotaccent (U+010B): X=290.0,Y=702.0 (should be at cap-height 700?)
 
@@ -1309,13 +1343,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0307 (U+0307): X=177.0,Y=701.0 (should be at cap-height 700?)
 
-	* uni0308 (U+0308): X=200.0,Y=701.0 (should be at cap-height 700?)
+	* uni0308 (U+0308): X=94.0,Y=701.0 (should be at cap-height 700?)
 
-	* uni0308 (U+0308): X=304.0,Y=701.0 (should be at cap-height 700?)
-
-	* uni0308 (U+0308): X=41.0,Y=701.0 (should be at cap-height 700?)
-
-	* uni0308 (U+0308): X=145.0,Y=701.0 (should be at cap-height 700?)
+	* uni0308 (U+0308): X=252.0,Y=701.0 (should be at cap-height 700?)
 
 	* uni030B (U+030B): X=253.0,Y=701.0 (should be at cap-height 700?)
 
@@ -1325,19 +1355,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni030B (U+030B): X=204.0,Y=701.0 (should be at cap-height 700?)
 
-	* wdieresis (U+1E85): X=490.0,Y=701.0 (should be at cap-height 700?)
+	* wdieresis (U+1E85): X=384.0,Y=701.0 (should be at cap-height 700?) 
 
-	* wdieresis (U+1E85): X=594.0,Y=701.0 (should be at cap-height 700?)
-
-	* wdieresis (U+1E85): X=331.0,Y=701.0 (should be at cap-height 700?) 
-
-	* wdieresis (U+1E85): X=435.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+	* wdieresis (U+1E85): X=542.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
+	* numbersign (U+0023) contains a short segment L<<622.0,398.0>--<637.0,398.0>>
+
 	* ampersand (U+0026) contains a short segment L<<326.0,366.0>--<323.0,366.0>>
+
+	* equal (U+003D) contains a short segment L<<82.0,348.0>--<82.0,348.0>>
+
+	* equal (U+003D) contains a short segment L<<536.0,352.0>--<537.0,352.0>>
 
 	* m (U+006D) contains a short segment L<<498.0,256.0>--<498.0,256.0>>
 
@@ -1382,12 +1414,6 @@ The following glyphs do not have the recommended number of contours:
 	* eng (U+014B): B<<215.5,385.0>-<167.0,339.0>-<155.0,256.0>>/L<<155.0,256.0>--<155.0,258.0>> = 8.226722464108152
 
 	* eng (U+014B): L<<155.0,256.0>--<155.0,258.0>>/L<<155.0,258.0>--<119.0,0.0>> = 7.943471810590413
-
-	* greaterequal (U+2265): L<<223.0,337.0>--<93.0,329.0>>/L<<93.0,329.0>--<285.0,377.0>> = 10.514790091004233
-
-	* greaterequal (U+2265): L<<320.0,359.0>--<502.0,400.0>>/L<<502.0,400.0>--<364.0,337.0>> = 11.842363738004835
-
-	* lessequal (U+2264): L<<341.0,377.0>--<519.0,329.0>>/L<<519.0,329.0>--<392.0,337.0>> = 11.487152139419168
 
 	* n (U+006E): B<<215.5,385.0>-<167.0,339.0>-<155.0,256.0>>/L<<155.0,256.0>--<155.0,258.0>> = 8.226722464108152
 
@@ -1688,6 +1714,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
@@ -1697,10 +1725,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: lessequal	Contours detected: 3	Expected: 2
-
-	- Glyph name: greaterequal	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 2	Expected: 1
 
@@ -1712,9 +1736,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: greaterequal	Contours detected: 3	Expected: 2
-
-	- Glyph name: lessequal	Contours detected: 3	Expected: 2 
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1943,14 +1965,6 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* greaterequal (U+2265): L<<208.0,337.0>--<79.0,329.0>>/L<<79.0,329.0>--<264.0,377.0>> = 10.996520767269896
-
-	* greaterequal (U+2265): L<<302.0,359.0>--<478.0,400.0>>/L<<478.0,400.0>--<349.0,337.0>> = 12.916153961656756
-
-	* lessequal (U+2264): L<<241.0,337.0>--<112.0,400.0>>/L<<112.0,400.0>--<288.0,359.0>> = 12.916153961656756
-
-	* lessequal (U+2264): L<<326.0,377.0>--<511.0,329.0>>/L<<511.0,329.0>--<382.0,337.0>> = 10.996520767269896 
-
 	* partialdiff (U+2202): B<<394.0,534.0>-<431.0,511.0>-<447.0,449.0>>/B<<447.0,449.0>-<445.0,517.0>-<429.5,570.5>> = 12.785609782169606 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
@@ -2034,7 +2048,37 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
+
+	- Glyph name: numbersign	Contours detected: 1	Expected: 2
+
+	- Glyph name: equal	Contours detected: 1	Expected: 2
+
+	- Glyph name: dieresis	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: Adieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: Edieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Idieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: Udieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: adieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: edieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: idieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: odieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: udieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: ydieresis	Contours detected: 2	Expected: 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -2046,19 +2090,65 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: Ydieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni0308	Contours detected: 1	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Adieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: Edieresis	Contours detected: 2	Expected: 3
+
 	- Glyph name: Eng	Contours detected: 2	Expected: 1
+
+	- Glyph name: Idieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Odieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: Udieresis	Contours detected: 2	Expected: 3
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: Wdieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: Ydieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: adieresis	Contours detected: 3	Expected: 4
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: dieresis	Contours detected: 1	Expected: 2
+
+	- Glyph name: edieresis	Contours detected: 3	Expected: 4
+
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: equal	Contours detected: 1	Expected: 2
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+	- Glyph name: idieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: numbersign	Contours detected: 1	Expected: 2
+
+	- Glyph name: odieresis	Contours detected: 3	Expected: 4
+
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
+
+	- Glyph name: udieresis	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni0308	Contours detected: 1	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: wdieresis	Contours detected: 2	Expected: 3 
+
+	- Glyph name: ydieresis	Contours detected: 2	Expected: 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -2127,6 +2217,16 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
+	* numbersign (U+0023) contains a short segment L<<426.0,97.0>--<415.0,97.0>>
+
+	* numbersign (U+0023) contains a short segment L<<415.0,97.0>--<412.0,87.0>>
+
+	* numbersign (U+0023) contains a short segment L<<57.0,87.0>--<60.0,97.0>>
+
+	* equal (U+003D) contains a short segment L<<86.0,377.0>--<86.0,377.0>>
+
+	* equal (U+003D) contains a short segment L<<533.0,323.0>--<533.0,323.0>>
+
 	* yen (U+00A5) contains a short segment L<<269.0,234.0>--<272.0,256.0>>
 
 	* yen (U+00A5) contains a short segment L<<382.0,256.0>--<379.0,234.0>>
@@ -2154,10 +2254,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* greaterequal (U+2265): L<<149.0,428.0>--<105.0,437.0>>/L<<105.0,437.0>--<175.0,438.0>> = 12.378586255906386
-
-	* lessequal (U+2264): L<<468.0,438.0>--<538.0,437.0>>/L<<538.0,437.0>--<492.0,428.0>> = 11.888658039627998
 
 	* m (U+006D): B<<561.0,372.0>-<519.0,330.0>-<509.0,254.0>>/L<<509.0,254.0>--<509.0,255.0>> = 7.495857639729836
 
@@ -2470,7 +2566,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 30 | 124 | 1172 | 61 | 920 | 0 |
+| 0 | 30 | 123 | 1172 | 61 | 921 | 0 |
 | 0% | 1% | 5% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
