@@ -48,6 +48,16 @@ The proof files and QA tests are also available automatically via GitHub Actions
 - Refined and redesigned drawings
 - Updated character set to GF Latin Core.
 
+**9 May 2024. Version 1.001**
+- Bug fixes: Some glyphs had different width accros styles and weights.
+- Reworked spacing.
+- Reworked kerning.
+- Drawing improvements.
+- Tabular numbers, currency symbols.
+- Tabular math symbols. They share same width but different than numbers and currencies.
+- Removed `ℓ (U+2113)` and `₨ (U+20A8)`, as they were just place holders.
+- Removed `Alternative Quotes` stylistic set that consists: `/comma.ss01/quotesinglbase.ss01/quotedblbase.ss01/quotedblleft.ss01/quotedblright.ss01/quoteleft.ss01/quoteright.ss01 ` as they were redundant.
+
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
