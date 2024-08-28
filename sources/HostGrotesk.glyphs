@@ -4,7 +4,8 @@
 DisplayStrings = (
 "nn/Placeholder o/Placeholder oo/nbspace 
 ĽďľťhRo",
-"aǎ"
+"aǎ",
+"HĂ"
 );
 axes = (
 {
@@ -827,11 +828,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 977;
+value = 990;
 },
 {
 name = hheaDescender;
-value = -277;
+value = -290;
 },
 {
 name = hheaLineGap;
@@ -839,11 +840,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 977;
+value = 990;
 },
 {
 name = typoDescender;
-value = -277;
+value = -290;
 },
 {
 name = typoLineGap;
@@ -901,11 +902,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 977;
+value = 990;
 },
 {
 name = hheaDescender;
-value = -277;
+value = -290;
 },
 {
 name = hheaLineGap;
@@ -913,11 +914,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 977;
+value = 990;
 },
 {
 name = typoDescender;
-value = -277;
+value = -290;
 },
 {
 name = typoLineGap;
