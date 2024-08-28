@@ -4,7 +4,7 @@
 DisplayStrings = (
 "nn/Placeholder no/Placeholder oo
 /caroncomb.alt LĽdoďoklľcatťonmho",
-"Ŋ"
+"ŊJ"
 );
 axes = (
 {
@@ -2124,11 +2124,11 @@ width = 234;
 unicode = 73;
 },
 {
-color = 8;
+color = 4;
 glyphname = J;
 kernLeft = J;
 kernRight = J;
-lastChange = "2024-05-09 20:05:48 +0000";
+lastChange = "2024-08-28 18:35:20 +0000";
 layers = (
 {
 associatedMasterId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
@@ -2160,6 +2160,16 @@ nodes = (
 width = 512;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (166,0);
+},
+{
+name = top;
+pos = (265,700);
+}
+);
 layerId = "BD1314B0-2F62-4F06-89D3-8B766BA843F0";
 shapes = (
 {
@@ -2173,23 +2183,26 @@ nodes = (
 (211,223,ls),
 (203,165,o),
 (172,125,o),
-(115,125,c),
-(103,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(103,0,l),
-(115,125,l),
+(115,125,cs),
 (-14,125,l),
-(-31,0,l)
+(-31,0,l),
+(103,0,ls)
 );
 }
 );
 width = 401;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (166,0);
+},
+{
+name = top;
+pos = (265,700);
+}
+);
 layerId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
 shapes = (
 {
@@ -2203,17 +2216,10 @@ nodes = (
 (257,192,ls),
 (247,119,o),
 (209,62,o),
-(119,62,c),
-(110,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(110,0,l),
-(119,62,l),
+(119,62,cs),
 (0,62,l),
-(-9,0,l)
+(-9,0,l),
+(110,0,ls)
 );
 }
 );
@@ -11635,9 +11641,10 @@ width = 691;
 unicode = 209;
 },
 {
+color = 4;
 glyphname = Eng;
 kernLeft = H;
-lastChange = "2024-08-28 18:33:39 +0000";
+lastChange = "2024-08-28 18:35:22 +0000";
 layers = (
 {
 anchors = (
