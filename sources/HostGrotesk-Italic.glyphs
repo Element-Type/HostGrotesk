@@ -835,7 +835,7 @@ value = 977;
 },
 {
 name = winDescent;
-value = 277;
+value = 372;
 }
 );
 guides = (
@@ -925,7 +925,7 @@ value = 977;
 },
 {
 name = winDescent;
-value = 277;
+value = 372;
 }
 );
 guides = (
