@@ -6,9 +6,7 @@ DisplayStrings = (
 "r®¤₹≈~",
 "~≥≤",
 "",
-"Ľ",
-"nn/Placeholder no/Placeholder oo
-/caroncomb.alt LĽddďolkhžnodolľotťčh"
+"Ľ"
 );
 axes = (
 {
@@ -846,7 +844,7 @@ value = 977;
 },
 {
 name = winDescent;
-value = 277;
+value = 372;
 }
 );
 iconName = Light;
@@ -920,7 +918,7 @@ value = 977;
 },
 {
 name = winDescent;
-value = 277;
+value = 372;
 }
 );
 guides = (
@@ -6755,8 +6753,9 @@ unicode = 111;
 {
 color = 11;
 glyphname = p;
+kernLeft = n;
 kernRight = o;
-lastChange = "2024-05-09 20:03:33 +0000";
+lastChange = "2024-08-28 17:41:54 +0000";
 layers = (
 {
 associatedMasterId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
