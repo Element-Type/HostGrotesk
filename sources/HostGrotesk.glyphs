@@ -7,7 +7,7 @@ DisplayStrings = (
 "~≥≤",
 "",
 "Ľ",
-"Ŋ"
+J
 );
 axes = (
 {
@@ -569,6 +569,19 @@ value = 1;
 {
 name = "Variable Font Origin";
 value = "897F30B6-1700-43C7-9C60-A606C7C7F267";
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
 }
 );
 date = "2023-01-01 21:31:06 +0000";
@@ -2133,7 +2146,7 @@ color = 8;
 glyphname = J;
 kernLeft = J;
 kernRight = J;
-lastChange = "2024-05-09 20:03:33 +0000";
+lastChange = "2024-08-28 17:52:44 +0000";
 layers = (
 {
 associatedMasterId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
@@ -2165,6 +2178,16 @@ nodes = (
 width = 512;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (201,0);
+},
+{
+name = top;
+pos = (201,700);
+}
+);
 layerId = "BD1314B0-2F62-4F06-89D3-8B766BA843F0";
 shapes = (
 {
@@ -2188,6 +2211,16 @@ nodes = (
 width = 401;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (201,0);
+},
+{
+name = top;
+pos = (201,700);
+}
+);
 layerId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
 shapes = (
 {
@@ -11463,9 +11496,10 @@ metricRight = N;
 unicode = 209;
 },
 {
+color = 4;
 glyphname = Eng;
 kernLeft = H;
-lastChange = "2024-08-28 17:51:27 +0000";
+lastChange = "2024-08-28 17:52:22 +0000";
 layers = (
 {
 anchors = (
