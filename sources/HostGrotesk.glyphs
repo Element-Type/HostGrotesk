@@ -3,7 +3,7 @@
 .formatVersion = 3;
 DisplayStrings = (
 "nn/Placeholder o/Placeholder oo/nbspace 
-Ľďľť"
+ĽďľťhRo"
 );
 axes = (
 {
@@ -43078,6 +43078,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -43192,6 +43193,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -43306,6 +43308,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -43421,6 +43424,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -43538,6 +43542,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -46678,6 +46683,7 @@ V = -36;
 X = -36;
 };
 "@MMK_L_dcaron" = {
+"@MMK_R_h" = 30;
 "@MMK_R_o" = -48;
 };
 "@MMK_L_e" = {
@@ -47587,7 +47593,6 @@ dagger = {
 "@MMK_R_A" = -61;
 };
 dcaron = {
-"@MMK_R_h" = 30;
 "@MMK_R_z" = 10;
 };
 dcroat = {

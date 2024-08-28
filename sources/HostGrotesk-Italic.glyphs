@@ -4,7 +4,7 @@
 DisplayStrings = (
 "nn/Placeholder no/Placeholder oo
 /caroncomb.alt LĽdoďoklľcatťonmho",
-"ŊJ"
+"ŊJȷ"
 );
 axes = (
 {
@@ -17525,9 +17525,19 @@ color = 4;
 glyphname = jdotless;
 kernLeft = j;
 kernRight = j;
-lastChange = "2024-05-09 20:05:48 +0000";
+lastChange = "2024-08-28 18:43:37 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (49,-270);
+},
+{
+name = top;
+pos = (157,496);
+}
+);
 layerId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
 shapes = (
 {
@@ -17551,6 +17561,16 @@ nodes = (
 width = 244;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (49,-270);
+},
+{
+name = top;
+pos = (157,496);
+}
+);
 layerId = "BD1314B0-2F62-4F06-89D3-8B766BA843F0";
 shapes = (
 {
@@ -47183,6 +47203,7 @@ softhyphen
 );
 }
 );
+exports = 0;
 name = Italic;
 properties = (
 {
@@ -47203,6 +47224,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -47319,6 +47341,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -47435,6 +47458,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -47552,6 +47576,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
@@ -47670,6 +47695,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "TTFAutohint options";
 value = "--default-script=latn --fallback-script=latn --windows-compatibility";
 },
