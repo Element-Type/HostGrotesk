@@ -2,12 +2,8 @@
 .appVersion = "3316";
 .formatVersion = 3;
 DisplayStrings = (
-"≥≤",
-"r®¤₹≈~",
-"~≥≤",
-"",
-"Ľ",
-J
+"nn/Placeholder o/Placeholder oo/nbspace 
+Ľďľť"
 );
 axes = (
 {
@@ -15729,7 +15725,7 @@ color = 11;
 glyphname = dcaron;
 kernLeft = o;
 kernRight = dcaron;
-lastChange = "2024-08-28 17:33:14 +0000";
+lastChange = "2024-08-28 18:22:26 +0000";
 layers = (
 {
 associatedMasterId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
@@ -15830,7 +15826,7 @@ pos = (594,0);
 ref = caroncomb.alt;
 }
 );
-width = 641;
+width = 631;
 }
 );
 metricLeft = d;
@@ -17645,9 +17641,9 @@ unicode = 314;
 },
 {
 glyphname = lcaron;
-kernLeft = l;
+kernLeft = h;
 kernRight = dcaron;
-lastChange = "2024-08-28 17:36:36 +0000";
+lastChange = "2024-08-28 18:21:11 +0000";
 layers = (
 {
 associatedMasterId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
@@ -44449,6 +44445,9 @@ Hbar = -22;
 V = -36;
 X = -36;
 };
+"@MMK_L_dcaron" = {
+"@MMK_R_h" = 30;
+};
 "@MMK_L_e" = {
 "@MMK_R_a" = -10;
 "@MMK_R_f" = -15;
@@ -45356,7 +45355,6 @@ dagger = {
 "@MMK_R_A" = -61;
 };
 dcaron = {
-"@MMK_R_h" = 30;
 "@MMK_R_k" = 20;
 "@MMK_R_z" = 30;
 };
