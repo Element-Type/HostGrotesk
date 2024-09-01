@@ -48810,7 +48810,7 @@ name = Regular;
 },
 {
 axesValues = (
-100
+110
 );
 customParameters = (
 {
@@ -48918,15 +48918,15 @@ softhyphen
 }
 );
 instanceInterpolations = {
-"897F30B6-1700-43C7-9C60-A606C7C7F267" = 0.57143;
-"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 0.42857;
+"897F30B6-1700-43C7-9C60-A606C7C7F267" = 0.42857;
+"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 0.57143;
 };
 name = Medium;
 weightClass = 500;
 },
 {
 axesValues = (
-123
+120
 );
 customParameters = (
 {
@@ -49034,8 +49034,124 @@ softhyphen
 }
 );
 instanceInterpolations = {
-"897F30B6-1700-43C7-9C60-A606C7C7F267" = 0.24286;
-"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 0.75714;
+"897F30B6-1700-43C7-9C60-A606C7C7F267" = 0.28571;
+"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 0.71429;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+130
+);
+customParameters = (
+{
+disabled = 1;
+name = "TTFAutohint options";
+value = "--default-script=latn --fallback-script=latn --windows-compatibility";
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "Decompose Glyphs";
+value = (
+Aacute,
+Abreve,
+Acircumflex,
+Adieresis,
+Agrave,
+Amacron,
+Aogonek,
+Aring,
+Atilde,
+AEacute,
+Cacute,
+Ccaron,
+Ccedilla,
+Cdotaccent,
+Dcaron,
+Dcroat,
+Eacute,
+Ebreve,
+Ecaron,
+Ecircumflex,
+Edieresis,
+Edotaccent,
+Egrave,
+Emacron,
+Eogonek,
+Etilde,
+Gbreve,
+Gcommaaccent,
+Gdotaccent,
+Iacute,
+Ibreve,
+Icircumflex,
+Idieresis,
+Idotaccent,
+Igrave,
+Imacron,
+Iogonek,
+Itilde,
+Kcommaaccent,
+Lacute,
+Lcommaaccent,
+Nacute,
+Ncaron,
+Ncommaaccent,
+Ntilde,
+Oacute,
+Obreve,
+Ocircumflex,
+Odieresis,
+Ograve,
+Ohungarumlaut,
+Omacron,
+Otilde,
+Racute,
+Rcaron,
+Rcommaaccent,
+Sacute,
+Scaron,
+Scedilla,
+Scommaaccent,
+Tcaron,
+Tcedilla,
+Tcommaaccent,
+Uacute,
+Ubreve,
+Ucircumflex,
+Udieresis,
+Ugrave,
+Uhungarumlaut,
+Umacron,
+Uogonek,
+Uring,
+Utilde,
+Wacute,
+Wcircumflex,
+Wdieresis,
+Wgrave,
+Yacute,
+Ycircumflex,
+Ydieresis,
+Ygrave,
+Ytilde,
+Zacute,
+Zcaron,
+Zdotaccent,
+gcommaaccent,
+commaturnedabovecomb.case,
+questiondown,
+softhyphen
+);
+}
+);
+instanceInterpolations = {
+"897F30B6-1700-43C7-9C60-A606C7C7F267" = 0.14286;
+"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 0.85714;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -49044,7 +49160,7 @@ weightClass = 700;
 },
 {
 axesValues = (
-134
+140
 );
 customParameters = (
 {
@@ -49152,124 +49268,7 @@ softhyphen
 }
 );
 instanceInterpolations = {
-"897F30B6-1700-43C7-9C60-A606C7C7F267" = 0.08571;
-"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 0.91429;
-};
-name = SemiBold;
-weightClass = 600;
-},
-{
-axesValues = (
-146
-);
-customParameters = (
-{
-disabled = 1;
-name = "TTFAutohint options";
-value = "--default-script=latn --fallback-script=latn --windows-compatibility";
-},
-{
-name = Autohint;
-value = 1;
-},
-{
-name = "Decompose Glyphs";
-value = (
-Aacute,
-Abreve,
-Acircumflex,
-Adieresis,
-Agrave,
-Amacron,
-Aogonek,
-Aring,
-Atilde,
-AEacute,
-Cacute,
-Ccaron,
-Ccedilla,
-Cdotaccent,
-Dcaron,
-Dcroat,
-Eacute,
-Ebreve,
-Ecaron,
-Ecircumflex,
-Edieresis,
-Edotaccent,
-Egrave,
-Emacron,
-Eogonek,
-Etilde,
-Gbreve,
-Gcommaaccent,
-Gdotaccent,
-Iacute,
-Ibreve,
-Icircumflex,
-Idieresis,
-Idotaccent,
-Igrave,
-Imacron,
-Iogonek,
-Itilde,
-Kcommaaccent,
-Lacute,
-Lcommaaccent,
-Nacute,
-Ncaron,
-Ncommaaccent,
-Ntilde,
-Oacute,
-Obreve,
-Ocircumflex,
-Odieresis,
-Ograve,
-Ohungarumlaut,
-Omacron,
-Otilde,
-Racute,
-Rcaron,
-Rcommaaccent,
-Sacute,
-Scaron,
-Scedilla,
-Scommaaccent,
-Tcaron,
-Tcedilla,
-Tcommaaccent,
-Uacute,
-Ubreve,
-Ucircumflex,
-Udieresis,
-Ugrave,
-Uhungarumlaut,
-Umacron,
-Uogonek,
-Uring,
-Utilde,
-Wacute,
-Wcircumflex,
-Wdieresis,
-Wgrave,
-Yacute,
-Ycircumflex,
-Ydieresis,
-Ygrave,
-Ytilde,
-Zacute,
-Zcaron,
-Zdotaccent,
-gcommaaccent,
-commaturnedabovecomb.case,
-questiondown,
-softhyphen
-);
-}
-);
-instanceInterpolations = {
-"897F30B6-1700-43C7-9C60-A606C7C7F267" = -0.08571;
-"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 1.08571;
+"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 1;
 };
 name = ExtraBold;
 weightClass = 800;
