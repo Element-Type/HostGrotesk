@@ -54338,7 +54338,7 @@ weightClass = 700;
 },
 {
 axesValues = (
-134
+132
 );
 customParameters = (
 {
@@ -54446,8 +54446,8 @@ softhyphen
 }
 );
 instanceInterpolations = {
-"897F30B6-1700-43C7-9C60-A606C7C7F267" = 0.08571;
-"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 0.91429;
+"897F30B6-1700-43C7-9C60-A606C7C7F267" = 0.11429;
+"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 0.88571;
 };
 isItalic = 1;
 linkStyle = SemiBold;
@@ -54456,7 +54456,7 @@ weightClass = 600;
 },
 {
 axesValues = (
-146
+140
 );
 customParameters = (
 {
@@ -54564,8 +54564,7 @@ softhyphen
 }
 );
 instanceInterpolations = {
-"897F30B6-1700-43C7-9C60-A606C7C7F267" = -0.08571;
-"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 1.08571;
+"BD1314B0-2F62-4F06-89D3-8B766BA843F0" = 1;
 };
 isItalic = 1;
 linkStyle = ExtraBold;
