@@ -36,6 +36,7 @@ customParameters = (
 name = glyphOrder;
 value = (
 "** Latin Basic **",
+.notdef,
 A,
 B,
 C,
@@ -612,7 +613,6 @@ feature frac;
 feature ordn;
 feature calt;
 feature case;
-feature kern;
 ";
 tag = aalt;
 },
@@ -671,34 +671,36 @@ value = "Alternative Numbers";
 tag = ss03;
 },
 {
+automatic = 1;
 code = "sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
-sub four by foursuperior;";
+sub four by foursuperior;
+";
 tag = sups;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
+code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
-} ccmp_Other_1;
+} ccmp_DFLT_1;
 
-lookup ccmp_Other_2 {
+lookup ccmp_Other_1 {
 	lookupflag 0;
 	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb commaturnedabovecomb commaaccentcomb cedillacomb ogonekcomb];
 	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case commaturnedabovecomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_Other_1;
 
-lookup ccmp_Other_3 {
+lookup ccmp_Other_2 {
 	lookupflag 0;
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_3;
+} ccmp_Other_2;
 
 lookup ccmp_latn_1 {
 	lookupflag 0;
@@ -762,11 +764,10 @@ lookup locl_latn_4 {
 tag = locl;
 },
 {
-code = "lookup FRAC {
-	sub one slash four by onequarter;
-	sub one slash two by onehalf;
-	sub three slash four by threequarters;
-} FRAC;
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
 ";
 tag = frac;
 },
@@ -776,7 +777,6 @@ sub @Ordinals [a o]' by @Ordinals;
 
 sub @AllNumbers [A a]' by ordfeminine;
 sub @AllNumbers [O o]' by ordmasculine;
-
 ";
 tag = ordn;
 },
@@ -981,6 +981,106 @@ visible = 1;
 }
 );
 glyphs = (
+{
+glyphname = .notdef;
+lastChange = "2024-08-30 14:53:16 +0000";
+layers = (
+{
+layerId = "BD1314B0-2F62-4F06-89D3-8B766BA843F0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(610,0,l),
+(610,700,l),
+(30,700,l),
+(30,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(325,324,l),
+(546,50,l),
+(103,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,628,l),
+(298,357,l),
+(80,87,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(352,357,l),
+(560,613,l),
+(560,99,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(114,650,l),
+(536,650,l),
+(325,389,l)
+);
+}
+);
+width = 640;
+},
+{
+layerId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
+shapes = (
+{
+closed = 1;
+nodes = (
+(610,0,l),
+(610,700,l),
+(30,700,l),
+(30,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(325,324,l),
+(546,50,l),
+(103,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,628,l),
+(298,357,l),
+(80,87,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(352,357,l),
+(560,613,l),
+(560,99,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(114,650,l),
+(536,650,l),
+(325,389,l)
+);
+}
+);
+width = 640;
+}
+);
+},
 {
 color = 8;
 glyphname = A;
@@ -33265,7 +33365,7 @@ unicode = 32;
 },
 {
 glyphname = nbspace;
-lastChange = "2024-04-18 13:19:03 +0000";
+lastChange = "2024-09-13 23:12:04 +0000";
 layers = (
 {
 layerId = "BD1314B0-2F62-4F06-89D3-8B766BA843F0";
@@ -33276,6 +33376,7 @@ layerId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
 width = 307;
 }
 );
+metricWidth = "=space";
 unicode = 160;
 },
 {
@@ -33307,106 +33408,6 @@ width = 600;
 }
 );
 unicode = 13;
-},
-{
-glyphname = .notdef;
-lastChange = "2024-08-30 14:53:16 +0000";
-layers = (
-{
-layerId = "BD1314B0-2F62-4F06-89D3-8B766BA843F0";
-shapes = (
-{
-closed = 1;
-nodes = (
-(610,0,l),
-(610,700,l),
-(30,700,l),
-(30,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(325,324,l),
-(546,50,l),
-(103,50,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(80,628,l),
-(298,357,l),
-(80,87,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(352,357,l),
-(560,613,l),
-(560,99,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(114,650,l),
-(536,650,l),
-(325,389,l)
-);
-}
-);
-width = 640;
-},
-{
-layerId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
-shapes = (
-{
-closed = 1;
-nodes = (
-(610,0,l),
-(610,700,l),
-(30,700,l),
-(30,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(325,324,l),
-(546,50,l),
-(103,50,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(80,628,l),
-(298,357,l),
-(80,87,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(352,357,l),
-(560,613,l),
-(560,99,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(114,650,l),
-(536,650,l),
-(325,389,l)
-);
-}
-);
-width = 640;
-}
-);
 },
 {
 color = 8;
@@ -48468,121 +48469,6 @@ unicode = 731;
 );
 instances = (
 {
-customParameters = (
-{
-name = fileName;
-value = "HostGroteskVariable-Regular";
-},
-{
-name = "Decompose Glyphs";
-value = (
-Aacute,
-Abreve,
-Acircumflex,
-Adieresis,
-Agrave,
-Amacron,
-Aogonek,
-Aring,
-Atilde,
-AEacute,
-Cacute,
-Ccaron,
-Ccedilla,
-Cdotaccent,
-Dcaron,
-Dcroat,
-Eacute,
-Ebreve,
-Ecaron,
-Ecircumflex,
-Edieresis,
-Edotaccent,
-Egrave,
-Emacron,
-Eogonek,
-Etilde,
-Gbreve,
-Gcommaaccent,
-Gdotaccent,
-Iacute,
-Ibreve,
-Icircumflex,
-Idieresis,
-Idotaccent,
-Igrave,
-Imacron,
-Iogonek,
-Itilde,
-Kcommaaccent,
-Lacute,
-Lcommaaccent,
-Nacute,
-Ncaron,
-Ncommaaccent,
-Ntilde,
-Oacute,
-Obreve,
-Ocircumflex,
-Odieresis,
-Ograve,
-Ohungarumlaut,
-Omacron,
-Otilde,
-Racute,
-Rcaron,
-Rcommaaccent,
-Sacute,
-Scaron,
-Scedilla,
-Scommaaccent,
-Tcaron,
-Tcedilla,
-Tcommaaccent,
-Uacute,
-Ubreve,
-Ucircumflex,
-Udieresis,
-Ugrave,
-Uhungarumlaut,
-Umacron,
-Uogonek,
-Uring,
-Utilde,
-Wacute,
-Wcircumflex,
-Wdieresis,
-Wgrave,
-Yacute,
-Ycircumflex,
-Ydieresis,
-Ygrave,
-Ytilde,
-Zacute,
-Zcaron,
-Zdotaccent,
-gcommaaccent,
-commaturnedabovecomb.case,
-questiondown,
-softhyphen
-);
-}
-);
-name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Host Grotesk Variable";
-}
-);
-}
-);
-type = variable;
-},
-{
 axesValues = (
 70
 );
@@ -49276,6 +49162,121 @@ instanceInterpolations = {
 };
 name = ExtraBold;
 weightClass = 800;
+},
+{
+customParameters = (
+{
+name = fileName;
+value = "HostGroteskVariable-Regular";
+},
+{
+name = "Decompose Glyphs";
+value = (
+Aacute,
+Abreve,
+Acircumflex,
+Adieresis,
+Agrave,
+Amacron,
+Aogonek,
+Aring,
+Atilde,
+AEacute,
+Cacute,
+Ccaron,
+Ccedilla,
+Cdotaccent,
+Dcaron,
+Dcroat,
+Eacute,
+Ebreve,
+Ecaron,
+Ecircumflex,
+Edieresis,
+Edotaccent,
+Egrave,
+Emacron,
+Eogonek,
+Etilde,
+Gbreve,
+Gcommaaccent,
+Gdotaccent,
+Iacute,
+Ibreve,
+Icircumflex,
+Idieresis,
+Idotaccent,
+Igrave,
+Imacron,
+Iogonek,
+Itilde,
+Kcommaaccent,
+Lacute,
+Lcommaaccent,
+Nacute,
+Ncaron,
+Ncommaaccent,
+Ntilde,
+Oacute,
+Obreve,
+Ocircumflex,
+Odieresis,
+Ograve,
+Ohungarumlaut,
+Omacron,
+Otilde,
+Racute,
+Rcaron,
+Rcommaaccent,
+Sacute,
+Scaron,
+Scedilla,
+Scommaaccent,
+Tcaron,
+Tcedilla,
+Tcommaaccent,
+Uacute,
+Ubreve,
+Ucircumflex,
+Udieresis,
+Ugrave,
+Uhungarumlaut,
+Umacron,
+Uogonek,
+Uring,
+Utilde,
+Wacute,
+Wcircumflex,
+Wdieresis,
+Wgrave,
+Yacute,
+Ycircumflex,
+Ydieresis,
+Ygrave,
+Ytilde,
+Zacute,
+Zcaron,
+Zdotaccent,
+gcommaaccent,
+commaturnedabovecomb.case,
+questiondown,
+softhyphen
+);
+}
+);
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Host Grotesk Variable";
+}
+);
+}
+);
+type = variable;
 }
 );
 kerningLTR = {
