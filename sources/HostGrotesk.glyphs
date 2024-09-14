@@ -53772,7 +53772,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Host Grotesk Project Authors (https://github.com/googlefonts/googlefonts-project-template)";
+value = "Copyright 2023 The Host Grotesk Project Authors (https://github.com/Element-Type/HostGrotesk)";
 }
 );
 },
