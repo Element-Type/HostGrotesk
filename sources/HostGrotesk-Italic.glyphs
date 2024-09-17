@@ -54335,7 +54335,7 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = SemiBold;
-name = SemiBold;
+name = "SemiBold Italic";
 weightClass = 600;
 },
 {
@@ -54571,7 +54571,7 @@ instanceInterpolations = {
 };
 isItalic = 1;
 linkStyle = ExtraBold;
-name = ExtraBold;
+name = "ExtraBold Italic";
 weightClass = 800;
 }
 );
