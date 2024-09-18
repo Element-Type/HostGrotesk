@@ -5,7 +5,10 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Doğukan Karapınar <hi@doughkan.com>
+Indian Type Foundry <info@indiantypefoundry.com>
 Element Type <hello@elementtype.co>
+Doğukan Karapınar <hi@doughkan.com>
+İbrahim Kaçtıoğlu <hi@ibrahimkactioglu.com>
+
 
 

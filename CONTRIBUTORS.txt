@@ -9,5 +9,3 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Doğukan Karapınar <hi@doughkan.com>
-ibrahim kaçtıoğlu <hi@ibrahimkactioglu.com>
