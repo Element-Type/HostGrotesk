@@ -17,7 +17,7 @@ Host Grotesk is a versatile uniwidth sans-serif typeface, offering both upright 
 
 
 
-![Host Grotesk](documentation/HostGrotesk-Promo.jpg)
+![Host Grotesk](documentation/HostGrotesk-Promo.png)
 Image designed by [Güzin Türkeri](https://www.behance.net/guzinturkeri)
 
 ## About
