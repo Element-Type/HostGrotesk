@@ -1,5 +1,5 @@
 {
-.appVersion = "3316";
+.appVersion = "3321";
 .formatVersion = 3;
 axes = (
 {
@@ -821,11 +821,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 990;
+value = 1015;
 },
 {
 name = hheaDescender;
-value = -290;
+value = -315;
 },
 {
 name = hheaLineGap;
@@ -833,11 +833,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 990;
+value = 1015;
 },
 {
 name = typoDescender;
-value = -290;
+value = -315;
 },
 {
 name = typoLineGap;
@@ -911,11 +911,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 990;
+value = 1015;
 },
 {
 name = hheaDescender;
-value = -290;
+value = -315;
 },
 {
 name = hheaLineGap;
@@ -923,11 +923,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 990;
+value = 1015;
 },
 {
 name = typoDescender;
-value = -290;
+value = -315;
 },
 {
 name = typoLineGap;
@@ -59066,7 +59066,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Doğukan Karapınar based on Poppins by Indian Type Foundry, Jonny Pinhorn";
+value = "Doğukan Karapınar";
 }
 );
 },

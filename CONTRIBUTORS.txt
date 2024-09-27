@@ -9,3 +9,7 @@
 # Names should be added to this file as:
 # Name <email address>
 
+Element Type <hello@elementtype.co>
+Doğukan Karapınar <hi@doughkan.com>
+İbrahim Kaçtıoğlu <hi@ibrahimkactioglu.com>
+Indian Type Foundry <info@indiantypefoundry.com>
