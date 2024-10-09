@@ -5,7 +5,8 @@ DisplayStrings = (
 "gğ̒ģģ̇ġğ",
 "/macroncomb.case ĀH́á",
 "ÁĂǍÂÄÀ/macroncomb.case ĀĄÅÃ",
-"˛"
+"˛",
+"¨˙`´˝ˆˇ˘˚˜¯¸˛"
 );
 axes = (
 {
@@ -48406,7 +48407,7 @@ unicode = 184;
 {
 color = 8;
 glyphname = ogonek;
-lastChange = "2024-10-09 14:25:09 +0000";
+lastChange = "2024-10-09 14:26:26 +0000";
 layers = (
 {
 associatedMasterId = "897F30B6-1700-43C7-9C60-A606C7C7F267";
@@ -53917,5 +53918,5 @@ tH = 117;
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 3;
 }
